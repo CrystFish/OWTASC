@@ -1,0 +1,133 @@
+{
+  "Sector Arrival": {"text": "黑荆星是一团扭曲的笼罩在浓雾之中的藤蔓。冰与岩的碎片漂浮在其周围，这是它很久之前在宿主星球上肆意生长时的残余。随着太阳变得越来越大、越来越热，黑荆星在经历了漫长的休眠期后又恢复了生机\n\n很少有人敢于冒险进入黑荆星阴暗的深处，极少数人（具体来说是一个也没有）能够活着回来\n\n回头吧，你还有很多值得继续活下去的理由"},
+  "Nodes": {
+    "坠毁的逃生舱": {
+      "position": {
+        "y": 72,
+        "x": -125
+      },
+      "explore": {
+        "text": "你发现了一个几乎无法辨认的挪麦逃生舱残骸，它被藤蔓缠绕着。你还在附近发现了一个洞穴，坠毁后剩余的挪麦人就躲在那里\n\n幸存下来的挪麦人们发现，黑荆实际上是一种巨大的跨次元食肉植物，它们推测，如果能在其中一根荆棘上安装追踪装置，也许就能跟随它回到黑荆的根部（飞船坠毁的地方）",
+        "discover clue": "D_3"
+      },
+      "entry point": true,
+      "description": "一艘坠毁的古逃生舱",
+      "fog light": true,
+      "signal": "BEACON",
+      "probe description": "一束光穿过雾气",
+      "gravity": false
+    },
+    "Anglerfish": {
+      "position": {
+        "y": -37,
+        "x": 343
+      },
+      "anglerfish": true
+    },
+    "Anglerfish7": {
+      "position": {
+        "y": -162,
+        "x": 5
+      },
+      "anglerfish": true
+    },
+    "黑荆星外围": {
+      "position": {
+        "y": 4,
+        "x": -335
+      },
+      "explore": {
+        "text": " ",
+        "fire event": "explore bramble outskirts"
+      },
+      "entry point": true,
+      "description": "一簇开花的藤蔓",
+      "ship access": true,
+      "gravity": false
+    },
+    "冰冻水母": {
+      "position": {
+        "y": 143,
+        "x": 108
+      },
+      "explore": {
+        "text": "你在一块浮冰中发现了一只巨大的水母。它看起来没有带电，所以你直接进去调查\n\n你检查了水母，发现其体腔中空，大得足以容纳一个人。这就是旅行者所说的吗？",
+        "discover clue": "APL_3"
+      },
+      "description": "冰冻水母",
+      "ship access": true,
+      "probe description": "一只被冰封在巨大冰块中的水母",
+      "gravity": false
+    },
+    "Anglerfish2": {
+      "position": {
+        "y": 132,
+        "x": 269
+      },
+      "anglerfish": true
+    },
+    "Anglerfish4": {
+      "position": {
+        "y": 178,
+        "x": 27
+      },
+      "anglerfish": true
+    },
+    "Anglerfish3": {
+      "position": {
+        "y": -72,
+        "x": -144
+      },
+      "anglerfish": true
+    },
+    "Anglerfish6": {
+      "position": {
+        "y": 22,
+        "x": 188
+      },
+      "anglerfish": true
+    },
+    "古飞船": {
+      "position": {
+        "y": 47,
+        "x": -24
+      },
+      "explore": {
+        "text": " ",
+        "fire event": "explore ancient vessel"
+      },
+      "entry point": false,
+      "description": "古飞船遗址",
+      "ship access": true,
+      "gravity": false
+    },
+    "Anglerfish5": {
+      "position": {
+        "y": -143,
+        "x": 184
+      },
+      "anglerfish": true
+    },
+    "鮟鱇鱼骨架": {
+      "position": {
+        "y": -44,
+        "x": 51
+      },
+      "explore": {
+        "text": "你在一条死去的鮟鱇鱼的骨架里遇到了一个灰头土脸的旅行者（鮟鱇鱼的诱饵还在发光，也许它能让其他鮟鱇鱼远离它）\n\n尽管他被困在这里已经有一段时间了，但他似乎并不急于返回文明世界\n\n作为不告诉任何人有关他行踪的回报，他告诉了你不远处的一个地点，那里有一个与抵达深巨星核心有关的秘密",
+        "reveal paths": ["冰冻水母"]
+      },
+      "entry point": true,
+      "description": "一条鮟鱇鱼的骨架",
+      "fog light": true,
+      "signal": "TRAVELER",
+      "probe description": "一束光穿过雾气",
+      "gravity": false
+    }
+  },
+  "Connections": [{
+    "Node 2": "冰冻水母",
+    "Node 1": "鮟鱇鱼骨架",
+    "hidden": true
+  }]
+}

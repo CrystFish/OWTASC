@@ -1,0 +1,25 @@
+Despite having helped make a game that is very much about the inexorable passage of time, it is with a certain degree of horror that I find myself commemorating the fifth anniversary of the launch of Outer Wilds. Now that it's been half a decade, I thought it'd be fun to share the text adventure we blogged about years ago.
+
+Some context! I wrote* this text adventure back in the summer of 2014, although it's actually a digital recreation of a paper prototype I made a few months prior. 
+
+At this point the Outer Wilds Alpha build was very close to the one we submitted to the 2015 Independent Games Festival, but as anyone who's played that version can attest, most of the narrative from the final game was still MIA. 
+
+Thing is, we actually had a lot more of the high-level story planned out behind the scenes than made it into the Alpha, so after IGF I decided to make a standalone prototype (first on paper, then this digital version) that would test players' abilities to piece together the entire overarching mystery before we committed to realizing it in-engine.
+
+This is that prototype! 
+
+Some random notes:
+- This text adventure contains the very first playable version of the game's ending which I think is neat.
+- We actually used this prototype to onboard new employees in the early days of making Outer Wilds at Mobius. In retrospect it was a pretty good way to get everyone on the same page about what we were trying to make.
+- I'm like 90% certain the Sun Station was conceptually a thing at this point and I just didn't bother implementing it, but also don't quote me on that.
+- I still think Dark Bramble being a carnivorous plant is a fun idea, even if the final version definitely works better overall.
+- Kelsey and I originally recorded the kazoo cover of the OW theme as a joke for Andrew, and this was its first (though clearly not its last) appearance in a windows executable file.
+
+Other than the text file you're currently reading, I've made zero modifications to the code and content from 2014. I hope you have fun with this little snapshot of the past.
+Thank you for your curiosity, friends. Here's to another half decade ::)
+
+-Alex Beachum
+
+
+
+*Meaning the text and code in this prototype. Hopefully it goes without saying that Kelsey Beachum and Loan Verneau played a huge role in shaping the story of Outer Wilds with me, not to mention the many, many people I bounced ideas with over the years, including (but not limited to!) Simon Wiscombe, Jason Mathias, Samantha Vick, Mike Sennott, and Wesley Martin. We're all standing on the shoulders of giants.

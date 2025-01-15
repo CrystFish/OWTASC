@@ -1,0 +1,151 @@
+{
+  "Sector Arrival": {"text": "深巨星是一个汹涌的世界，这里有巨形龙卷风和广阔的海洋\n\n海面上散布的小岛经常会被经过的龙卷风卷入大气层再落回大海，溅起巨大的水花\n\n当你接近这颗行星时，你注意到在低轨道上有一个小型的挪麦空间站"},
+  "Nodes": {
+    "深渊": {
+      "position": {
+        "y": 91,
+        "x": -2
+      },
+      "explore": [{
+        "text": "你在探索深渊时，发现了从挪麦探测器发射器上脱落的 “回响室”\n\n你在里面发现了一个看上去很庞大的档案库。随着探索的深入，你逐渐意识到这里的设计初衷是为了在时间流的断裂处保存信息数据\n\n在大厅的中央，一台投影仪显示着数以亿计的探测器累计起来的轨迹，这些探测器从太阳系的各个方向发射出去。似乎其中一个探测器成功找到了宇宙之眼！你一定要记下坐标...",
+        "fire event": "learn signal coordinates"
+      }],
+      "entry point": false,
+      "description": "海底深渊",
+      "ship access": false,
+      "probe description": "围绕着海洋最深处噼啪作响的能量屏障",
+      "gravity": false
+    },
+    "量子小岛": {
+      "position": {
+        "y": -154,
+        "x": 124
+      },
+      "explore": {
+        "text": "你发现了一大堆奇怪的黑色石头，它们会趁你不注意的时候移动！\n\n挪麦人推测，这些岩石来自量子卫星，量子卫星有时也会出现在深巨星的轨道上。它们还发现了一种奇怪的现象，观察岩石的照片与直接观察岩石的效果是一样的",
+        "discover clue": "QM_1"
+      },
+      "entry point": true,
+      "description": "一座堆满了黑色石头的小岛",
+      "signal": "QUANTUM"
+    },
+    "禅境小岛": {
+      "position": {
+        "y": 57,
+        "x": -195
+      },
+      "explore": "你遇到了一位旅行者，这位旅行者告诉你不久前有东西从天而降，沉入了大海\n\n这位旅行者还告诉你，其中一位旅行者曾多次试图到达海底。不幸的是，这位旅行者几年前飞向了黑荆星，从此杳无音信...",
+      "entry point": true,
+      "description": "一座被森林覆盖的小岛",
+      "signal": "TRAVELER",
+      "probe description": "小岛篝火缕缕炊烟",
+      "campfire": true
+    },
+    "挪麦空间站": {
+      "position": {
+        "y": -127,
+        "x": -352
+      },
+      "explore": {
+        "text": "你在深巨星的低轨道上发现了一个（严重损坏的）挪麦空间站。仔细观察会发现它实际上是一个探测器发射器，不过探测器看起来已经发射出去了\n\n附近的一个电脑终端显示，空间站在发射探测器时受损，一个名为 “回响室” 的模块完全断裂，掉进了深巨星",
+        "discover clue": "APL_1"
+      },
+      "entry point": true,
+      "description": "一个位于深巨星低轨道上的古空间站",
+      "gravity": false
+    },
+    "海洋中层": {
+      "position": {
+        "y": -61,
+        "x": -3
+      },
+      "explore": [
+        {"text": "你在水下飞来飞去，欣赏着窗前游过的巨型带电水母"},
+        {
+          "text": "你弃船而去，游进一只水母的体内\n\n它向下游入深渊，带着你一路前行",
+          "move to": "深渊",
+          "require clue": "APL_3"
+        }
+      ],
+      "entry point": false,
+      "description": "海洋中层，巨型水母的家园",
+      "ship access": true,
+      "probe description": "巨型水母在海洋深处上下游动",
+      "gravity": false
+    },
+    "一座小岛": {
+      "position": {
+        "y": 136,
+        "x": 148
+      },
+      "explore": "你调查了这个类似捕梦网的结构，并注意到中心平坦的圆形平台上有细小沙粒",
+      "description": "一座有着类似捕梦网结构的外星建筑的小岛"
+    },
+    "天线小岛": {
+      "position": {
+        "y": 45,
+        "x": 195
+      },
+      "explore": {
+        "text": "一根奇特的天线从岛中央伸出，直插云霄\n\n你发现了一条通往岛内的通道，在里面发现了一个奇怪的古代装置\n\n一个陶罐放在能量场中心的底座上。陶罐从底座上滚落，摔碎在地板上。一道亮光闪过，你看到破碎的碎片重新组合在了底座上！陶罐再次滚落到地上，周而复始...\n\n你能找到的挪麦人的记录都相当隐晦，但似乎它们似乎想建造一个更大的装置...前提是它们能产生运行它所需的大量能源",
+        "discover clue": "TLD_1"
+      },
+      "entry point": true,
+      "description": "一座有一根伸向天空的奇怪天线的小岛"
+    },
+    "风暴区": {
+      "position": {
+        "y": -148,
+        "x": -130
+      },
+      "explore": [
+        {"text": "你飞进了一个湍急的龙卷风中，巨大的龙卷风在海面上肆虐\n\n你不小心撞入了龙卷风当中，并被龙卷风强大的漩涡短暂抛向高层大气\n\n你坠回地面，发现了一个小型挪麦研究站。看起来研究人员正在监测龙卷风，并向碎空星的天文台报告它们的发现"},
+        {
+          "text": "你发现了一个逆时针旋转的龙卷风，并飞了进去\n\n你的飞船被强大的下行漩涡猛烈地推向水下深处！",
+          "require clue": "APL_2",
+          "move to": "海洋中层"
+        }
+      ],
+      "entry point": true,
+      "description": "一团充满龙卷风的强劲云团",
+      "ship access": true,
+      "gravity": false
+    }
+  },
+  "Connections": [
+    {
+      "Node 2": "天线小岛",
+      "Node 1": "一座小岛"
+    },
+    {
+      "fail event": "dive attempt",
+      "Node 2": "禅境小岛",
+      "one-way": "true",
+      "Node 1": "海洋中层"
+    },
+    {
+      "fail event": "dive attempt",
+      "Node 2": "量子小岛",
+      "one-way": "true",
+      "Node 1": "海洋中层"
+    },
+    {
+      "fail event": "dive attempt",
+      "Node 2": "天线小岛",
+      "one-way": "true",
+      "Node 1": "海洋中层"
+    },
+    {
+      "fail event": "dive attempt",
+      "Node 2": "风暴区",
+      "one-way": "true",
+      "Node 1": "海洋中层"
+    },
+    {
+      "fail event": "barrier attempt",
+      "Node 2": "海洋中层",
+      "one-way": "true",
+      "Node 1": "深渊"
+    }
+  ]
+}

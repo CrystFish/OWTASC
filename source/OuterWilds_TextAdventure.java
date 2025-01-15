@@ -155,7 +155,7 @@ class AnglerfishNode extends Node
 
 	public String getProbeDescription() 
 	{
-		return "一束穿过雾气的光";
+		return "一束光穿过雾气";
 	}
 
 	public boolean hasDescription() {return true;}

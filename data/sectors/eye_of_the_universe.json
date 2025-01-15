@@ -1,0 +1,30 @@
+{
+  "Sector Arrival": {"text": "你跃迁到到了宇宙之眼"},
+  "Nodes": {
+    "Ancient Vessel 2": {
+      "name": "古飞船",
+      "position": {
+        "y": 200,
+        "x": 0
+      },
+      "explore": "飞船跃迁装置的能量正式耗尽了...看来这就是旅途的终点",
+      "description": "一处古老的废墟",
+      "gravity": false
+    },
+    "宇宙之眼": {
+      "position": {
+        "y": 0,
+        "x": 0
+      },
+      "explore": {"text": "查看事件屏幕", "fire event" : "older than the universe"},
+      "description": "？？？",
+      "gravity": false
+    },
+  },
+  "Connections": [
+    {
+      "Node 2": "宇宙之眼",
+      "Node 1": "Ancient Vessel 2"
+    }
+  ]
+}
