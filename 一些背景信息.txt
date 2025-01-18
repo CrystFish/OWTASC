@@ -1,4 +1,8 @@
-原压缩包内包含名为 SomeContextForTheThingYouJustDownloaded.txt 的补充文本，以下是其内容的翻译：
+Outer Wilds Text Advanture 为 Outer Wilds 开发早期纸质原型的数字化版本，由 Outer Wilds 开发总监 Alex Beachum 在 2014 年制作完成
+
+CrystFish/OWTASC 项目旨在为原型程序提供简体中文支持
+
+原型程序压缩包内包含名为 SomeContextForTheThingYouJustDownloaded.txt 的补充文本，以下是其内容的翻译：
 
 ===========分割线==========
 
@@ -8,7 +12,7 @@
 
 此时的星际拓荒 Alpha 版本与我们提交给 2015 年的独立游戏节（IGF）的版本非常相近，但是玩过那个版本的人都能证明其仍然缺失最终游戏的大部分剧情。
 
-事实上，我们在背后写的高水准剧情比 Alpha 版本要多得多，所以在 IGF 之后，我决定制作一个独立的原型（先做纸质版，再做数字版），在我们将这些实装进引擎之前，测试玩家将整个谜团拼凑起来的能力。
+事实上，我们在背后写的高水平剧情比 Alpha 版本要多得多，所以在 IGF 之后，我决定制作一个独立的原型（先做纸质版，再做数字版），在我们将这些实装进引擎之前，测试玩家将整个谜团拼凑起来的能力。
 
 这就是那个原型！
 
