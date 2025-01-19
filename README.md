@@ -3,7 +3,7 @@
 
 [本项目](https://github.com/CrystFish/OWTASC)为原型程序提供了简体中文支持
 
-你可以在本项目的 [release](https://github.com/CrystFish/OWTASC/release) 页面下载已打包编译完毕的汉化版本
+你可以在本项目的 [releases](https://github.com/CrystFish/OWTASC/releases) 页面下载已打包编译完毕的汉化版本
 
 ## 版权相关事项
 所有资产和原始源代码均属于其原始版权所有者。本项目的作者不对上述资产或源代码（包括任何衍生材料）的版权提出任何要求
