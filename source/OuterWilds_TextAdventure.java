@@ -1368,7 +1368,7 @@ class BrambleOutskirtsScreen extends EventScreen
 			return "你正在探索黑荆星的外围，藤蔓的顶端会开出巨大的异形白花（以及几朵蓝花）\n\n你注意到靠近每朵花中心的地方都有一个小开口...你想靠近仔细看看吗？";
 		}
 
-		return "当你靠近时，花朵打开了，一股奇怪的力量开始把你推进去。你拼命想逃离，但没有用\n\n你被一朵巨大的花朵毫不留情地吞噬了。世界一片漆黑，你能听到自己被消化的声音..";
+		return "当你靠近时，花朵打开了，一股奇怪的力量开始把你推进去。你拼命想逃离，但没有用\n\n你被一朵巨大的花朵毫不留情地吞噬了。世界一片漆黑，你能听到自己被消化的声音...";
 	}
 
 	public void onButtonUp(Button button)
@@ -2442,10 +2442,10 @@ class TravelAction extends NodeAction
 		{
 			if (_ship.currentNode == null && _destination.gravity)
 			{
-				setPrompt("降落到此处 ");
+				setPrompt("降落到此处");
 				return;
 			}
-			setPrompt("飞到此处 ");
+			setPrompt("飞到此处");
 		}
 		else if (_destination.gravity)
 		{
@@ -2453,7 +2453,7 @@ class TravelAction extends NodeAction
 		}
 		else
 		{
-			setPrompt("飞到此处 ");
+			setPrompt("飞到此处");
 		}
 	}
 
@@ -2715,15 +2715,15 @@ class PlayerData implements GlobalObserver
 			_knownFrequencies.add(Frequency.QUANTUM);
 		}
 
-		_clueList.add(new Clue(Curiosity.ANCIENT_PROBE_LAUNCHER, "APL_1", "沉底模块", "数据收集模块从挪麦探测器发射器上脱落，掉进了深巨星的中心。"));
+		_clueList.add(new Clue(Curiosity.ANCIENT_PROBE_LAUNCHER, "APL_1", "沉底模块", "数据收集模块从挪麦探测器发射器上脱落，掉进了深巨星的中心"));
 		_clueList.add(new Clue(Curiosity.ANCIENT_PROBE_LAUNCHER, "APL_2", "汹涌的龙卷风", "深巨星上的大多数龙卷风都有强烈的上升气流，但有些逆时针旋转的龙卷风有着下行气流"));
 		_clueList.add(new Clue(Curiosity.ANCIENT_PROBE_LAUNCHER, "APL_3", "水母", "深巨星水母的空腔恰好能够容下一个人"));
 
 		_clueList.add(new Clue(Curiosity.QUANTUM_MOON, "QM_3", "第五个位置", "量子卫星有时会拜访太阳系外的第五个位置"));
 		_clueList.add(new Clue(Curiosity.QUANTUM_MOON, "QM_1", "量子成像", "观察量子物体的照片与直接观察物体本身一样，能有效地防止物体移动"));
-		_clueList.add(new Clue(Curiosity.QUANTUM_MOON, "QM_2", "量子纠缠", "普通物体在靠近量子物体时会与之“纠缠”在一起，并开始表现出量子属性"));
+		_clueList.add(new Clue(Curiosity.QUANTUM_MOON, "QM_2", "量子纠缠", "普通物体在靠近量子物体时会与之“纠缠”在一起，并开始表现出量子属性\n\n只要无法观察自己或周围环境，即使是生命体也会被纠缠"));
 
-		_clueList.add(new Clue(Curiosity.VESSEL, "D_1", "失落的飞船", "挪麦人来到这个太阳系是为了寻找它们称之为 “宇宙之眼”的神秘的信号，它们乘坐的飞船在黑荆星的某处遇难"));
+		_clueList.add(new Clue(Curiosity.VESSEL, "D_1", "失落的飞船", "挪麦人来到这个太阳系是为了寻找它们称之为“宇宙之眼”的神秘的信号，它们乘坐的飞船在黑荆星的某处遇难"));
 		_clueList.add(new Clue(Curiosity.VESSEL, "D_2", "孩童的游戏", "挪麦人孩童们玩了一个游戏，重现了族人逃离黑荆星的情景。根据游戏规则，三名玩家（逃生舱）必须在不被发现的情况下偷偷溜过蒙着眼睛的玩家（鮟鱇鱼）"));
 		_clueList.add(new Clue(Curiosity.VESSEL, "D_3", "追踪装置", "挪麦飞船坠毁在黑荆的根部。挪麦人试图将追踪装置插入黑荆的一根藤蔓中，以重新定位根部，但它们无法穿透藤蔓坚硬的外表"));
 
@@ -3548,7 +3548,7 @@ abstract class SectorButton extends Button
     fill(0, 0, 0);
     stroke(0, 0, 100);
     rectMode(CENTER);
-    rect(screenPosition.x, screenPosition.y + getRadius() + 40, textWidth("左键放大 ") + 10, 20);
+    rect(screenPosition.x, screenPosition.y + getRadius() + 40, textWidth("左键放大") + 10, 20);
 
     fill(0, 0, 100);
     textAlign(CENTER, CENTER);
@@ -4158,7 +4158,7 @@ class SectorScreen extends Screen implements NodeButtonObserver, NodeActionObser
 
     addButtonToToolbar(_databaseButton = new Button("查看数据库", 0, 0, 150, 50));
     addButtonToToolbar(_telescopeButton = new Button("扫描信号", 0, 0, 150, 50));
-    _telescopeButton.setDisabledPrompt("扫描信号（视野受阻）");
+    _telescopeButton.setDisabledPrompt("扫描信号\n（视野受阻）");
 
     addButtonToToolbar(_waitButton  = new Button("等待 [ 1 分钟 ]", 0, 0, 150, 50));
     addButtonToToolbar(_liftoffButton  = new Button("离开该区域", 0, 0, 150, 50));
@@ -5410,7 +5410,7 @@ class TimeLoop implements GlobalObserver
 
 	public void waitFor(int minutes)
 	{
-		feed.publish("你等待了1分钟", true);
+		feed.publish("你等待了 1 分钟", true);
 		spendActionPoints(minutes);
 	}
 
