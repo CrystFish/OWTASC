@@ -5,7 +5,7 @@
 
 你可以在本项目的 [releases](https://github.com/CrystFish/OWTASC/releases) 页面下载已打包编译完毕的汉化版本
 
-当然你也可以在 [这里](https://https://github.com/CrystFish/OWTAWebSC) 在线游玩已经汉化的网页移植版本
+当然你也可以在 [这里](https://github.com/CrystFish/OWTAWebSC) 在线游玩已经汉化的网页移植版本
 
 ## 版权相关事项
 所有资产和原始源代码均属于其原始版权所有者。本项目的作者不对上述资产或源代码（包括任何衍生材料）的版权提出任何要求
